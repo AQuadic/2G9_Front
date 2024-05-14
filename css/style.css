@@ -85,17 +85,17 @@ html::-webkit-scrollbar-track {
   height: 28px;
   border-radius: 50%;
   background-color: var(--main_color);
-  animation: scaleCircle 1s infinite alternate;
+  animation: scaleCircle 1s infinite alternate ease-in;
 }
 .circle .part.delayed-circle {
-  animation-delay: 0.5s; /* Add a delay of 1 second */
+  animation-delay: 0.3s; /* Add a delay of 1 second */
 }
 @keyframes scaleCircle {
   from {
     transform: scale(1);
   }
   to {
-    transform: scale(0.9);
+    transform: scale(0.5);
   }
 }
 /*lines*/
@@ -113,7 +113,7 @@ html::-webkit-scrollbar-track {
   height: 4px;
   display: block;
   background-color: var(--main_color);
-  animation: scaleLine 1s infinite alternate;
+  animation: scaleLine 1s infinite alternate ease-in;
 }
 .lines .line.delayed_Line {
   animation-delay: 0.5s;
@@ -362,6 +362,7 @@ html::-webkit-scrollbar-track {
   background-color: var(--main_color);
   margin-bottom: 120px;
   position: relative;
+  overflow: hidden;
 }
 .about .lines{
   position: absolute;
@@ -481,7 +482,7 @@ height: 16px;
     margin-bottom: 20px;
   }
   .about {
-    padding: 30px 0px 92px;
+    padding: 30px 0px 120px;
     margin-bottom: 52px;
   }
   .about .circle {
@@ -519,6 +520,15 @@ height: 16px;
     position: absolute;
     top: 46px;
     right: -159px;
+}
+.about .content .part1 .features {
+  margin-bottom: 34px;
+  gap: 0px;
+
+}
+.about .content .part1 .downloadApp ul {
+  max-width: 280px;
+  gap: 10px;
 }
 }
 /*aboutContent*/
@@ -622,6 +632,10 @@ height: 16px;
 }
 }
 @media (max-width: 992px) {
+  .aboutContent .content .part2 {
+  
+    min-width: auto;
+  }
 }
 @media (max-width: 768px) {
   .aboutContent {
@@ -641,6 +655,14 @@ height: 16px;
     font-size: 18px;
     line-height: 30px;
   }
+}
+@media (max-width: 500px) {
+  .aboutContent.aboutCircle .content .lines {
+ 
+
+    right: -90px;
+
+}
 }
 /*contactUS*/
 .contactUS {
@@ -776,6 +798,36 @@ height: 16px;
 }
 }
 @media (max-width: 992px) {
+  .contactUS .content .part2 {
+
+    min-width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .contactUS .circle {
+    width: 96px;
+  }
+  .contactUS .circle .part {
+    width: 16px;
+    height: 16px;
+    
+}
+.contactUS {
+  padding-bottom: 170px;
+}
+.contactUS .circle {
+  bottom: 50px;
+  left: 20px;
+}
+.contactUS .content .part1 h2 {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+.contactUS .content .part1 p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 14px;
+}
 }
 /*footer*/
 footer {
@@ -965,7 +1017,7 @@ footer .copy .part2 h3 a {
   }
   footer .content {
     gap: 24px;
-    padding-bottom: 54px;
+    padding-bottom: 40px;
   }
   footer {
     padding: 44px 0px 0px;
@@ -997,6 +1049,12 @@ footer .copy .part2 h3 a {
     width: 28px;
   }
   footer .content .part2 .logoFooter img {
-    width: 104px;
+    width: 90px;
   }
+}
+@media (max-width: 500px) {
+  footer .content .part1 .links {
+    gap: 4px;
+    
+}
 }
