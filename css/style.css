@@ -364,24 +364,24 @@ html::-webkit-scrollbar-track {
   position: relative;
   overflow: hidden;
 }
-.about .lines{
+.about .lines {
   position: absolute;
   top: 46px;
   right: -40px;
 }
-.about .lines .line{
+.about .lines .line {
   background-color: white;
 }
-.about .circle{
+.about .circle {
   position: absolute;
-  bottom:  46px;
+  bottom: 46px;
   right: 60px;
   max-width: 106px;
 }
-.about .circle .part{
+.about .circle .part {
   background-color: white;
-width: 16px;
-height: 16px;
+  width: 16px;
+  height: 16px;
 }
 .about .content {
   display: flex;
@@ -486,10 +486,8 @@ height: 16px;
     margin-bottom: 52px;
   }
   .about .circle {
-  
     bottom: 8px;
-
-}
+  }
 }
 @media (max-width: 992px) {
   .about .content {
@@ -513,23 +511,22 @@ height: 16px;
     position: absolute;
     top: 46px;
     right: -140px;
-}
+  }
 }
 @media (max-width: 560px) {
   .about .lines {
     position: absolute;
     top: 46px;
     right: -159px;
-}
-.about .content .part1 .features {
-  margin-bottom: 34px;
-  gap: 0px;
-
-}
-.about .content .part1 .downloadApp ul {
-  max-width: 280px;
-  gap: 10px;
-}
+  }
+  .about .content .part1 .features {
+    margin-bottom: 34px;
+    gap: 0px;
+  }
+  .about .content .part1 .downloadApp ul {
+    max-width: 280px;
+    gap: 10px;
+  }
 }
 /*aboutContent*/
 .aboutContent {
@@ -574,13 +571,13 @@ height: 16px;
   margin: auto;
 }
 
-.aboutContent.aboutCircle .content .lines{
+.aboutContent.aboutCircle .content .lines {
   position: absolute;
-  bottom:  -40px;
+  bottom: -40px;
   right: 0px;
   z-index: -1;
 }
-.aboutContent.aboutCircle .content .circle{
+.aboutContent.aboutCircle .content .circle {
   position: absolute;
   top: -80px;
   right: 0px;
@@ -620,20 +617,17 @@ height: 16px;
   .aboutContent.aboutCircle .content .circle {
     top: -50px;
     width: 106px;
-}
-.aboutContent.aboutCircle .content .circle .part{
-  width: 18px;
-  height: 18px;
-}
-.aboutContent.aboutCircle .content .lines {
- 
-  bottom: -76px;
-
-}
+  }
+  .aboutContent.aboutCircle .content .circle .part {
+    width: 18px;
+    height: 18px;
+  }
+  .aboutContent.aboutCircle .content .lines {
+    bottom: -76px;
+  }
 }
 @media (max-width: 992px) {
   .aboutContent .content .part2 {
-  
     min-width: auto;
   }
 }
@@ -658,18 +652,15 @@ height: 16px;
 }
 @media (max-width: 500px) {
   .aboutContent.aboutCircle .content .lines {
- 
-
     right: -90px;
-
-}
+  }
 }
 /*contactUS*/
 .contactUS {
   position: relative;
   padding-bottom: 500px;
 }
-.contactUS .circle{
+.contactUS .circle {
   position: absolute;
   bottom: 200px;
   left: 80px;
@@ -792,14 +783,12 @@ height: 16px;
     padding-bottom: 300px;
   }
   .contactUS .circle {
-
     bottom: 96px;
     left: 40px;
-}
+  }
 }
 @media (max-width: 992px) {
   .contactUS .content .part2 {
-
     min-width: auto;
   }
 }
@@ -810,24 +799,23 @@ height: 16px;
   .contactUS .circle .part {
     width: 16px;
     height: 16px;
-    
-}
-.contactUS {
-  padding-bottom: 170px;
-}
-.contactUS .circle {
-  bottom: 50px;
-  left: 20px;
-}
-.contactUS .content .part1 h2 {
-  font-size: 22px;
-  margin-bottom: 4px;
-}
-.contactUS .content .part1 p {
-  font-size: 18px;
-  line-height: 30px;
-  margin-bottom: 14px;
-}
+  }
+  .contactUS {
+    padding-bottom: 170px;
+  }
+  .contactUS .circle {
+    bottom: 50px;
+    left: 20px;
+  }
+  .contactUS .content .part1 h2 {
+    font-size: 22px;
+    margin-bottom: 4px;
+  }
+  .contactUS .content .part1 p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 14px;
+  }
 }
 /*footer*/
 footer {
@@ -1055,6 +1043,5 @@ footer .copy .part2 h3 a {
 @media (max-width: 500px) {
   footer .content .part1 .links {
     gap: 4px;
-    
-}
+  }
 }
