@@ -666,12 +666,25 @@ html::-webkit-scrollbar-track {
 /*contactUS*/
 .contactUS {
   position: relative;
-  padding-bottom: 500px;
+  padding: 80px 0px;
+  background: rgb(253 229 229);
+  max-width: 2000px;
+  margin: auto;
+  box-shadow: 17px 20px 5px rgb(222, 226, 230);
 }
+
 .contactUS .circle {
   position: absolute;
-  bottom: 200px;
-  left: 80px;
+  bottom: -10px;
+  left: 0px;
+width: 50%;
+  z-index: 10;
+  justify-content: space-between;
+}
+.contactUS .circle .part {
+  width: 20px;
+  height: 20px;
+  background-color: hsl(0deg 84.13% 87.65%);
 }
 .contactUS .content {
   display: flex;
@@ -679,6 +692,7 @@ html::-webkit-scrollbar-track {
   justify-content: space-between;
   gap: 50px;
   flex-direction: row-reverse;
+  position: relative;
 }
 
 .contactUS .content .part1 {
@@ -700,13 +714,13 @@ html::-webkit-scrollbar-track {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
 }
 .contactUS .content .part1 form input {
-  background: hsla(0, 29%, 94%, 1);
+  background: white;
   width: 100%;
   height: 80px;
-  border-radius: 10px;
+  border-radius: 45px;
   border: none;
   box-shadow: 2px 2px 8px 0px hsl(0deg 0% 0% / 14%);
   padding: 10px 24px;
@@ -717,10 +731,10 @@ html::-webkit-scrollbar-track {
   font-family: "DINMd";
 }
 .contactUS .content .part1 form textarea {
-  background: hsla(0, 29%, 94%, 1);
+  background: white;
   width: 100%;
-  height: 350px;
-  border-radius: 10px;
+  height: 246px;
+  border-radius: 30px;
   border: none;
   box-shadow: 2px 2px 8px 0px hsl(0deg 0% 0% / 14%);
   padding: 20px 24px;
@@ -731,7 +745,7 @@ html::-webkit-scrollbar-track {
   font-family: "DINMd";
 }
 .contactUS .content .part1 form input[type="submit"] {
-  background-color: var(--main_color);
+  background-color: hsla(0, 54%, 45%, 1);
   box-shadow: 2px 2px 8px 0px hsl(0deg 0% 0% / 14%);
   color: white;
   font-size: 26px;
@@ -774,7 +788,7 @@ html::-webkit-scrollbar-track {
   }
   .contactUS .content .part1 form {
     gap: 22px;
-    max-width: 700px;
+    max-width: 100%px;
   }
   .contactUS .content .part1 form input {
     height: 56px;
@@ -787,34 +801,29 @@ html::-webkit-scrollbar-track {
   .contactUS .content .part1 form input[type="submit"] {
     font-size: 20px;
   }
-  .contactUS {
-    padding-bottom: 300px;
-  }
-  .contactUS .circle {
-    bottom: 96px;
-    left: 40px;
-  }
+
+ 
 }
 @media (max-width: 992px) {
   .contactUS .content .part2 {
     min-width: auto;
   }
+  .contactUS .circle {
+    width: 100%;
+    flex-wrap: nowrap;
+  }
 }
 @media (max-width: 768px) {
   .contactUS .circle {
-    width: 96px;
-  }
+   
+    bottom: -8px;
+  
+}
   .contactUS .circle .part {
     width: 16px;
     height: 16px;
-  }
-  .contactUS {
-    padding-bottom: 170px;
-  }
-  .contactUS .circle {
-    bottom: 50px;
-    left: 20px;
-  }
+}
+ 
   .contactUS .content .part1 h2 {
     font-size: 22px;
     margin-bottom: 4px;
@@ -1106,7 +1115,10 @@ footer .copy .part2 h3 a {
   margin-bottom: 50px;
 }
 .subscibe .content form {
+  direction: ltr;
 }
+
+
 .subscibe .content form .pertForm {
   background-color: white;
   padding: 20px 16px 16px;
