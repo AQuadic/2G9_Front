@@ -345,6 +345,11 @@ html::-webkit-scrollbar-track {
     padding: 10px 20px;
   }
 }
+@media (max-width: 500px) {
+  .navbar-brand img {
+    height: 56px;
+  }
+}
 @media (max-width: 350px) {
   .navbar .dropdown-menu {
     right: auto;
@@ -633,7 +638,7 @@ html::-webkit-scrollbar-track {
 }
 @media (max-width: 768px) {
   .aboutContent {
-    margin-bottom: 60px;
+    margin-bottom: 90px;
   }
   .aboutContent .content .part2 img {
     max-width: 70%;
@@ -653,6 +658,9 @@ html::-webkit-scrollbar-track {
 @media (max-width: 500px) {
   .aboutContent.aboutCircle .content .lines {
     right: -90px;
+  }
+  .aboutContent.aboutCircle .content .circle .part {
+    opacity: 0.4;
   }
 }
 /*contactUS*/
@@ -700,7 +708,7 @@ html::-webkit-scrollbar-track {
   height: 80px;
   border-radius: 10px;
   border: none;
-  box-shadow: 4px 4px 4px 0px hsla(0, 0%, 0%, 0.25);
+  box-shadow: 2px 2px 8px 0px hsl(0deg 0% 0% / 14%);
   padding: 10px 24px;
 }
 .contactUS .content .part1 form input::placeholder {
@@ -714,7 +722,7 @@ html::-webkit-scrollbar-track {
   height: 350px;
   border-radius: 10px;
   border: none;
-  box-shadow: 4px 4px 4px 0px hsla(0, 0%, 0%, 0.25);
+  box-shadow: 2px 2px 8px 0px hsl(0deg 0% 0% / 14%);
   padding: 20px 24px;
 }
 .contactUS .content .part1 form textarea::placeholder {
@@ -724,7 +732,7 @@ html::-webkit-scrollbar-track {
 }
 .contactUS .content .part1 form input[type="submit"] {
   background-color: var(--main_color);
-  box-shadow: 4px 4px 4px 0px hsla(0, 0%, 0%, 0.25);
+  box-shadow: 2px 2px 8px 0px hsl(0deg 0% 0% / 14%);
   color: white;
   font-size: 26px;
   font-family: "DINMd";
@@ -1044,4 +1052,139 @@ footer .copy .part2 h3 a {
   footer .content .part1 .links {
     gap: 4px;
   }
+}
+
+/*subscibe*/
+.subscibe {
+  padding: 80px 0px;
+  background: hsla(0, 100%, 92%, 1);
+  position: relative;
+  max-width: 2000px;
+  margin: auto;
+}
+.subscibe::before {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: hsla(0, 100%, 95%, 1);
+  top: 0;
+  left: 0;
+}
+.subscibe .circle {
+  position: absolute;
+  bottom: 40px;
+  left: 50px;
+  gap: 30px;
+  width: 230px;
+}
+.subscibe .circle .part {
+  width: 18px;
+  height: 18px;
+  background: hsla(0, 95%, 74%, 1);
+}
+.subscibe .circle .part.delayed-circle {
+  background: hsla(0, 100%, 88%, 1);
+}
+.subscibe .content {
+  position: relative;
+  z-index: 5;
+}
+.subscibe .content h2 {
+  font-size: 60px;
+  max-width: 550px;
+  line-height: 74px;
+  margin-bottom: 30px;
+  font-family: "DINBold";
+}
+.subscibe .content p {
+  color: hsla(0, 0%, 33%, 1);
+  font-size: 18px;
+  font-family: "DIN";
+  max-width: 500px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+.subscibe .content form {
+}
+.subscibe .content form .pertForm {
+  background-color: white;
+  padding: 20px 16px 16px;
+  height: 100px;
+  width: 100%;
+  max-width: 734px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  border-radius: 50px;
+}
+.subscibe .content form .pertForm span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.subscibe .content form .pertForm input[type="email"] {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-family: "DINMd";
+  direction: ltr;
+  outline: none;
+}
+.subscibe .content form .pertForm input[type="email"]::placeholder {
+  color: hsla(202, 11%, 38%, 1);
+  font-size: 18px;
+}
+.subscibe .content form .pertForm input[type="submit"] {
+  background: hsla(0, 54%, 45%, 1);
+  width: 200px;
+  height: 100%;
+  padding: 20px;
+  border-radius: 32px;
+  color: white;
+  border: none;
+  transition: 0.5s;
+}
+.subscibe .content form .pertForm input[type="submit"]:hover {
+  box-shadow: 2px 2px 8px 0px hsl(0.5deg 54.55% 43.14%);
+}
+
+@media (max-width: 768px) {
+  .subscibe {
+    padding: 40px 0px;
+  }
+  .subscibe .content h2 {
+    font-size: 30px;
+    max-width: 350px;
+    line-height: 48px;
+    margin-bottom: 10px;
+  }
+  .subscibe .content p {
+    margin-bottom: 40px;
+  }
+  .subscibe .content form .pertForm {
+    padding: 10px 10px 10px;
+    height: 72px;
+    gap: 10px;
+  }
+  .subscibe .content form .pertForm input[type="submit"] {
+    width: 106px;
+    padding: 0px;
+    font-size: 14px;
+  }
+  .subscibe .circle {
+    bottom: 6px;
+    left: -4px;
+    opacity: 0.3;
+  }
+  .subscibe .content form .pertForm span {
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+}
 }
