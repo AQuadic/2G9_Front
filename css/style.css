@@ -419,6 +419,7 @@ html::-webkit-scrollbar-track {
   flex-direction: column;
   gap: 10px;
   margin-bottom: 140px;
+  list-style: inside;
 }
 .about .content .part1 .features li {
   font-size: 22px;
