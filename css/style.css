@@ -427,6 +427,12 @@ html::-webkit-scrollbar-track {
   margin-bottom: 10px;
   color: white;
 }
+
+.about .content .part1 .features li.cangeImg {
+  cursor: pointer;
+  position: relative;
+}
+
 .about .content .part1 .downloadApp {
 }
 .about .content .part1 .downloadApp h2 {
