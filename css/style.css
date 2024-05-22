@@ -213,11 +213,21 @@ html::-webkit-scrollbar-track {
 }
 .navbar-brand {
   font-size: 36px;
-  line-height: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 .navbar-brand img {
   height: 74px;
   width: auto;
+}
+.navbar-brand svg{
+  
+    height: 28px;
+    max-width: 100%;
+
 }
 .navbar-nav .nav-link {
   color: white;
@@ -470,7 +480,6 @@ html::-webkit-scrollbar-track {
 .about .content .part2 img {
   width: 100%;
   height: auto;
-  box-shadow: 96px 96px 96px 0px hsla(0, 0%, 0%, 0.36);
 }
 
 @media (max-width: 1200px) {
@@ -913,12 +922,20 @@ footer .content .part2 {
 footer .content .part2 .logoFooter {
   display: flex;
   margin: 0px auto 60px;
+
+    gap: 10px;
+    width: 120px;
 }
 footer .content .part2 .logoFooter img {
   width: 120px;
   height: auto;
   display: block;
   margin: auto;
+}
+footer .content .part2 .logoFooter svg{
+    height: 28px;
+    align-self: center;
+    max-width: 100%;
 }
 footer .content .part2 ul {
   display: flex;
@@ -1008,7 +1025,7 @@ footer .copy .part2 h3 a {
     gap: 10px;
   }
   footer .content .part2 .logoFooter {
-    margin: 0px auto 46px;
+    margin: 0px 0px 46px;
   }
   footer .content .part2 ul {
     max-width: 300px;
@@ -1041,7 +1058,7 @@ footer .copy .part2 h3 a {
     flex-direction: column-reverse;
   }
   footer .content .part2 .logoFooter {
-    margin: 0px auto 26px;
+    margin: 0px 0px 26px;
   }
   footer .content .part2 .logoFooter img {
     margin: 0;
