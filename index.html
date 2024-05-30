@@ -96,10 +96,10 @@
             <h1>بع سيارتك بكل سهولة وبخطوات بسيطة</h1>
             <p>التطبيق الاول من نوعه الذي يقدم خدمات متكاملة :</p>
             <ul class="features">
-              <li>بيع وشراء السيارات</li>
-              <li class="cangeImg cangeImg1" id="cangeImg1">استخدام رقم الشاصي VIN لتعبئة بيانات السيارة.</li>
-              <li>الخدمات الاخرى المتعلقة بالسيارات</li>
-              <li class="cangeImg cangeImg2" id="cangeImg2">تصميم الاعلان بواسطة الذكاء الاصطناعي</li>
+              <li class="cangeImg cangeImg1" id="cangeImg1">بيع وشراء السيارات</li>
+              <li class="cangeImg cangeImg2" id="cangeImg2">استخدام رقم الشاصي VIN لتعبئة بيانات السيارة.</li>
+              <li  class="cangeImg cangeImg3" id="cangeImg3">الخدمات الاخرى المتعلقة بالسيارات</li>
+              <li class="cangeImg cangeImg4"  id="cangeImg4">تصميم الاعلان بواسطة الذكاء الاصطناعي</li>
             </ul>
             <div class="downloadApp">
               <h2>حمل التطبيق الان</h2>
@@ -393,12 +393,20 @@
     <script>
       const cangeImg1 = document.getElementById('cangeImg1');
       const cangeImg2 = document.getElementById('cangeImg2');
+      const cangeImg3 = document.getElementById('cangeImg3');
+      const cangeImg4 = document.getElementById('cangeImg4');
     const image = document.getElementById('mainImg');
       cangeImg1.addEventListener('click', () => {
-        image.src = './images/iphone.png'; 
+        image.src = './images/car1.png'; 
     });
     cangeImg2.addEventListener('click', () => {
-        image.src = './images/appStore.png'; 
+        image.src = './images/vin.png'; 
+    });
+    cangeImg3.addEventListener('click', () => {
+        image.src = './images/other.png'; 
+    });
+    cangeImg4.addEventListener('click', () => {
+        image.src = './images/ai.png'; 
     });
     </script>
   </body>
