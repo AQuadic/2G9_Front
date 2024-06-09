@@ -223,11 +223,9 @@ html::-webkit-scrollbar-track {
   height: 74px;
   width: auto;
 }
-.navbar-brand svg{
-  
-    height: 28px;
-    max-width: 100%;
-
+.navbar-brand svg {
+  height: 28px;
+  max-width: 100%;
 }
 .navbar-nav .nav-link {
   color: white;
@@ -417,7 +415,6 @@ html::-webkit-scrollbar-track {
   max-width: 630px;
 }
 
-
 .about .content .part1 p {
   font-size: 22px;
   font-family: "DIN";
@@ -554,19 +551,19 @@ html::-webkit-scrollbar-track {
     font-size: 28px;
     line-height: 44px;
     margin-bottom: 24px;
-}
-.about .content .part1 p {
-  font-size: 18px;
-  margin-bottom: 8px;
-}
-.about .content .part1 .features li {
-  font-size: 18px;
-  margin-bottom: 6px;
-}
-.about .content .part1 .downloadApp h2 {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
+  }
+  .about .content .part1 p {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  .about .content .part1 .features li {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  .about .content .part1 .downloadApp h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
 }
 /*aboutContent*/
 .aboutContent {
@@ -712,7 +709,7 @@ html::-webkit-scrollbar-track {
   position: absolute;
   bottom: -10px;
   left: 0px;
-width: 50%;
+  width: 50%;
   z-index: 10;
   justify-content: space-between;
 }
@@ -836,8 +833,6 @@ width: 50%;
   .contactUS .content .part1 form input[type="submit"] {
     font-size: 20px;
   }
-
- 
 }
 @media (max-width: 992px) {
   .contactUS .content .part2 {
@@ -850,15 +845,13 @@ width: 50%;
 }
 @media (max-width: 768px) {
   .contactUS .circle {
-   
     bottom: -8px;
-  
-}
+  }
   .contactUS .circle .part {
     width: 16px;
     height: 16px;
-}
- 
+  }
+
   .contactUS .content .part1 h2 {
     font-size: 22px;
     margin-bottom: 4px;
@@ -923,8 +916,8 @@ footer .content .part2 .logoFooter {
   display: flex;
   margin: 0px auto 60px;
 
-    gap: 10px;
-    width: 120px;
+  gap: 10px;
+  width: 120px;
 }
 footer .content .part2 .logoFooter img {
   width: 120px;
@@ -932,10 +925,10 @@ footer .content .part2 .logoFooter img {
   display: block;
   margin: auto;
 }
-footer .content .part2 .logoFooter svg{
-    height: 28px;
-    align-self: center;
-    max-width: 100%;
+footer .content .part2 .logoFooter svg {
+  height: 28px;
+  align-self: center;
+  max-width: 100%;
 }
 footer .content .part2 ul {
   display: flex;
@@ -991,7 +984,7 @@ footer .copy .part2 h3 {
 }
 footer .copy .part2 h3 a {
   color: white;
-  font-size:16px;
+  font-size: 16px;
   font-weight: 700;
   font-family: sans-serif;
 }
@@ -1051,7 +1044,7 @@ footer .copy .part2 h3 a {
   }
   footer .content .part2 .logoFooter img {
     width: 90px;
-}
+  }
 }
 @media (max-width: 768px) {
   footer .content {
@@ -1166,7 +1159,6 @@ footer .copy .part2 h3 a {
   direction: ltr;
 }
 
-
 .subscibe .content form .pertForm {
   background-color: white;
   padding: 20px 16px 16px;
@@ -1246,37 +1238,38 @@ footer .copy .part2 h3 a {
     width: 40px;
     height: 40px;
     padding: 6px;
-}
+  }
 }
 /*carAd1*/
-.carAd1{
+.carAd1 {
   width: 900px;
   margin: auto;
   background-color: white;
 }
-.carAd1 .content{
- 
+.carAd1 .content {
 }
-.carAd1 .content .headContent{
+.carAd .content .headContent {
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
 }
-.carAd1 .content .headContent h2{
+.carAd .content .headContent h2 {
   color: black;
   font-size: 62px;
   line-height: 77px;
   max-width: 480px;
+  font-family: "DINBold";
+  margin: 0;
 }
-.carAd1 .content .headContent .logoAd{
+.carAd .content .headContent .logoAd {
   min-width: 216px;
   height: auto;
   max-height: 125px;
 }
-.carAd1 .content .headImgCar{
+.carAd1 .content .headImgCar {
   padding: 0px 30px;
 }
-.carAd1 .content .headImgCar .carImg{
+.carAd1 .content .headImgCar .carImg {
   width: 100%;
   height: 510px;
   border-radius: 20px;
@@ -1284,59 +1277,64 @@ footer .copy .part2 h3 a {
   display: block;
   margin: auto;
 }
-.carAd1 .content .parts{
+.carAd1 .content .parts {
   display: flex;
   gap: 12px;
-  padding:20px  30px;
+  padding: 20px 30px;
 }
-.carAd1 .content .parts .part1{
+.carAd .content .parts .details {
   background-color: var(--main_color);
   border-radius: 20px;
-  padding: 10px 20px;
+  max-width: 380px;
 }
-.carAd1 .content .parts .part1 .headDetails{
+.carAd .content .parts .details .headDetails {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
-  margin-bottom: 12px;
+  padding: 10px 20px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: black;
 }
-.carAd1 .content .parts .part1 .headDetails h3{
+.carAd .content .parts .details .headDetails h3 {
   color: white;
   font-size: 32px;
- 
+  font-family: "DIN";
 }
-.carAd1 .content .parts .part1 .headDetails .linkDetails{
+.carAd .content .parts .details .headDetails .linkDetails {
   color: white;
   font-size: 22px;
-
+  font-family: "DIN";
 }
-.carAd1 .content .parts .part1 ul{
-  padding: 0px;
+.carAd .content .parts .details ul {
+  padding: 10px 20px;
 }
-.carAd1 .content .parts .part1 ul li{
+.carAd .content .parts .details ul li {
   padding-bottom: 10px;
   border-bottom: 1px solid white;
   display: flex;
   align-items: center;
-min-height: 44px;
+  min-height: 44px;
   gap: 40px;
 }
-.carAd1 .content .parts .part1 ul li h4{
-  font-size: 20px;
+.carAd .content .parts .details ul li h4 {
+  font-size: 17px;
   color: white;
+  margin: 0;
+  font-family: "DIN";
 }
-.carAd1 .content .parts .part1 ul li p{
+.carAd .content .parts .details ul li p {
   color: white;
-  font-size: 30px;
+  font-size: 28px;
+  font-family: "DINBold";
 }
-.carAd1 .content .parts .part1 ul li.colorSpan {
- border-bottom: none;
- padding-top: 4px;
- padding-bottom: 6px;
+.carAd .content .parts .details ul li.colorSpan {
+  border-bottom: none;
+  padding-top: 4px;
+  padding-bottom: 6px;
 }
-.carAd1 .content .parts .part1 ul li.colorSpan span{
+.carAd .content .parts .details ul li.colorSpan span {
   width: 212px;
   border: 1px solid black;
   background-color: white;
@@ -1344,59 +1342,205 @@ min-height: 44px;
   height: 36px;
   display: block;
 }
-.carAd1 .content .parts .part1 .features{
+.carAd .content .parts .details .features {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
+  padding: 16px 20px;
 }
-.carAd1 .content .parts .part1 .features .feature{
+.carAd .content .parts .details .features .feature {
   width: calc(50% - 4px);
   display: flex;
   gap: 4px;
   align-items: center;
 }
-.carAd1 .content .parts .part1 .features .feature .circleFeature{
+
+.carAd .content .parts .details .features .feature .circleFeature {
   background-color: white;
   height: 22px;
   width: 22px;
   border-radius: 50%;
+  position: relative;
 }
-.carAd1 .content .parts .part1 .features .feature p{
+.carAd .content .parts .details .features .feature .circleFeature.active {
+  background: hsla(118, 99%, 36%, 1);
+}
+.carAd1
+  .content
+  .parts
+  .details
+  .features
+  .feature
+  .circleFeature.active::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../images/true.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  width: 14px;
+  height: 10px;
+}
+.carAd .content .parts .details .features .feature p {
   color: white;
   font-size: 20px;
-
+  font-family: "DIN";
 }
 
-.carAd1 .content .parts .part2{
+.carAd1 .content .parts .part2 {
   width: 444px;
+  flex: 1;
 }
-.carAd1 .content .parts .part2 .price{
-  margin-bottom: 28px;
-  display: flex;
-  align-items: flex-end;
-  gap: 12px;
-  direction: ltr;
-  justify-content: flex-end;
-}
-.carAd1 .content .parts .part2 .price h2{
-  font-size: 74px;
-  color: black;
-  margin: 0;
-}
-.carAd1 .content .parts .part2 .price span{
-  font-size: 16px;
-color: black;
-}
-.carAd1 .content .parts .part2 .partImgCar2{
+
+.carAd1 .content .parts .part2 .partImgCar2 {
   display: flex;
   flex-direction: column;
   gap: 14px;
   max-width: 100%;
 }
-.carAd1 .content .parts .part2 .partImgCar2 .carImg{
+.carAd1 .content .parts .part2 .partImgCar2 .carImg {
   width: 100%;
   height: 294px;
   object-fit: cover;
   border-radius: 20px;
+}
+.carAd .content .contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: -16px;
+  justify-content: space-between;
+}
+.carAd .content .contact .part1 {
+  background-color: var(--main_color);
+  padding: 20px 28px 20px 50px;
+  border-radius: 70px 0px 0px 70px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  height: 124px;
+}
+.carAd .content .contact .part1 h2 {
+  color: white;
+  font-size: 20px;
+  font-family: "DIN";
+  font-size: 24px;
+  text-align: center;
+}
+.carAd .content .contact .part1 p {
+  color: white;
+  font-size: 20px;
+  font-family: "DINBold";
+  font-size: 54px;
+  text-align: center;
+  line-height: 18px;
+  direction: ltr;
+}
+.carAd .content .contact .part2 {
+  height: 150px;
+}
+.carAd .content .contact .part2 img {
+  height: 100%;
+}
+.carAd .layimg {
+  position: relative;
+}
+.carAd .layimg::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../images/lay2G9.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 80%;
+  background-size: contain;
+}
+.carAd .price {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  direction: ltr;
+  justify-content: flex-end;
+  background-color: var(--main_color);
+  border-radius: 70px;
+  padding: 10px 20px;
+  justify-content: space-between;
+  width: fit-content;
+  margin: 0px auto 28px;
+}
+.carAd .price img{
+width: 84px;
+}
+.carAd .price h2 {
+  font-size: 66px;
+  color: white;
+  margin: 0;
+  font-family: "DINBold";
+
+}
+.carAd .price span {
+  font-size: 16px;
+  color: white;
+  font-family: "DIN";
+
+}
+.carAd .price .priceNum {
+  display: flex;
+  align-items: flex-end;
+  gap:6px;
+  flex: 1;
+
+}
+
+.carAd2 {
+  width: 1080px;
+  margin: auto;
+  background-color: white;
+  margin-top: 150px;
+}
+.carAd2 .content .detailsCar{
+  display: flex;
+  gap: 30px;
+}
+.carAd2 .content .detailsCar .part2{
+  flex: 1;
+}
+.carAd2 .content .detailsCar .part2 .partImgCar2{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.carAd2 .content .detailsCar .part2 .partImgCar2 .layimg{
+  border-radius: 20px;
+}
+.carAd2 .content .detailsCar .part2 .partImgCar2 .layimg img{
+  border-radius: 20px;
+width: 100%;
+
+}
+.carAd2 .content .detailsCar .part2 .partImgCar2 .carImg1{
+  width: 100%;
+}
+.carAd2 .content .detailsCar .part2 .partImgCar2 .carImg1 img{
+  width: 100%;
+  height: 376px;
+  object-fit: cover;
+}
+.carAd2 .content .detailsCar .part2 .partImgCar2 .carImg2{
+  width: calc(50% - 10px);
+}
+.carAd2 .content .detailsCar .part2 .partImgCar2 .carImg2 img{
+  height: 202px;
+  width: 100%;
+  object-fit: cover;
 }
