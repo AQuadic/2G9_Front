@@ -395,6 +395,7 @@ html::-webkit-scrollbar-track {
   bottom: 46px;
   right: 60px;
   max-width: 106px;
+  opacity: 0.5;
 }
 .about .circle .part {
   background-color: white;
