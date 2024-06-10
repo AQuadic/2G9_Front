@@ -1550,3 +1550,94 @@ width: 100%;
   width: 100%;
   object-fit: cover;
 }
+
+
+/*start aboutPage*/
+.aboutPage {
+  margin-bottom: 44px;
+}
+.aboutPage .contentAbout {
+  padding-top: 40px;
+  background-image: url("../images/backAbout.svg");
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.aboutPage .contentAbout h2 {
+  color: #2e2e2e;
+  text-align: center;
+  font-family: "DINBold";
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96px; /* 106.667% */
+  margin-bottom: 44px;
+}
+.aboutPage .contentAbout .h3Title {
+  color: #232233;
+  text-align: center;
+ font-family: "DINMd";
+  font-size: 31.25px;
+  line-height: 47.25px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.aboutPage .contentAbout h4 {
+  color: #232233;
+  text-align: center;
+ font-family: "DINMd";
+  font-size: 24px;
+  line-height: 47.25px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.aboutPage .contentAbout .brand {
+  margin-bottom: 52px;
+}
+.aboutPage .contentAbout h5 {
+  color: #232233;
+  text-align: center;
+ font-family: "DINMd";
+  font-size: 31.25px;
+
+  line-height: 47.25px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.aboutPage .contentAbout p {
+  color: #232233;
+  text-align: right;
+  font-family: "DINL";
+  font-size: 16px;
+  line-height: 47.25px;
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .aboutPage .contentAbout {
+    padding-top: 24px;
+  }
+  .aboutPage .contentAbout h2 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 6px;
+}
+.aboutPage .contentAbout .h3Title {
+  font-size: 20px;
+  line-height: 34px;
+  margin-bottom: 6px;
+}
+  .aboutPage .contentAbout h4 {
+    margin-bottom: 6px;
+  }
+  .aboutPage .contentAbout h5 {
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 8px;
+}
+.aboutPage .contentAbout p {
+  font-size: 16px;
+  line-height: 30px;
+}
+}
+/*end aboutPage*/
