@@ -392,15 +392,15 @@ html::-webkit-scrollbar-track {
 }
 .about .circle {
   position: absolute;
-  bottom: 46px;
+  bottom: 22px;
   right: 60px;
   max-width: 106px;
   opacity: 0.5;
 }
 .about .circle .part {
   background-color: white;
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
 }
 .about .content {
   display: flex;
@@ -570,11 +570,16 @@ html::-webkit-scrollbar-track {
     font-size: 16px;
     margin-bottom: 10px;
   }
+  .about .circle {
+   
+    right: 14px;
+   
+}
 }
 /*aboutContent*/
 .aboutContent {
   position: relative;
-  margin-bottom: 200px;
+  margin-bottom: 160px;
 }
 
 .aboutContent .content {
@@ -616,7 +621,7 @@ html::-webkit-scrollbar-track {
 
 .aboutContent.aboutCircle .content .lines {
   position: absolute;
-  bottom: -40px;
+  bottom: -70px;
   right: 0px;
   z-index: -1;
 }
