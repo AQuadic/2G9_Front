@@ -622,7 +622,7 @@ html::-webkit-scrollbar-track {
 }
 .aboutContent.aboutCircle .content .circle {
   position: absolute;
-  top: -80px;
+  top: -130px;
   right: 0px;
   z-index: -1;
 }
