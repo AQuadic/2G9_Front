@@ -1271,9 +1271,15 @@ footer .copy .part2 h3 a {
   color: black;
   font-size: 62px;
   line-height: 77px;
-  max-width: 480px;
+  max-width: 800px;
+
   font-family: "DINBold";
   margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .carAd .content .headContent .logoAd {
   min-width: 216px;
