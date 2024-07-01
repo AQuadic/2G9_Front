@@ -700,7 +700,10 @@ html::-webkit-scrollbar-track {
 }
 @media (max-width: 500px) {
   .aboutContent.aboutCircle .content .lines {
-    right: -90px;
+    right: 0px;
+  }
+  .aboutContent.aboutCircle .content .lines .line{
+    width: 110px;
   }
   .aboutContent.aboutCircle .content .circle .part {
     opacity: 0.4;
